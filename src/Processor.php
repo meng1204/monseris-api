@@ -53,6 +53,10 @@ class Processor
     {
         if ($environment === Moneris::ENV_LIVE) {
             $this->config['host'] = 'www3.moneris.com';
+        }elseif($environment === Moneris::ENV_US_LIVE){
+            $this->config['host'] = 'esplus.moneris.com';
+        }elseif($environment === Moneris::ENV_US_TESTING){
+            $this->config['host'] = 'esplusqa.moneris.com';
         }
 
         return $this->config;

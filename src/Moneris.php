@@ -14,9 +14,14 @@ class Moneris
 {
     use Gettable;
 
+    /** For Canada */
     const ENV_LIVE    = 'live';
     const ENV_STAGING = 'staging';
     const ENV_TESTING = 'testing';
+
+    const ENV_US_LIVE    = 'US_live';
+    const ENV_US_STAGING = 'US_staging';
+    const ENV_US_TESTING = 'US_testing';
 
     /**
      * The environment used for connecting to the Moneris API.
