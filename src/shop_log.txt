@@ -1,0 +1,9 @@
+
+------cvd-------
+SimpleXMLElement Object
+(
+    [cvd_indicator] => 1
+    [cvd_value] => 123
+)
+
+ ------------------------------ 
